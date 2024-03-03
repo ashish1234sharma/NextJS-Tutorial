@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export default function Home() {
+export default function Auth() {
   const pathName=usePathname()
   const routes=[
    {
@@ -31,7 +31,6 @@ export default function Home() {
       )
     })
    }
-   <h1>Welcome home!</h1>
    </>
   );
 }
